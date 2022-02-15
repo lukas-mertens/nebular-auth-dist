@@ -15,6 +15,7 @@ export interface NbAuthSocialLink {
     target?: string;
     title?: string;
     icon?: string;
+    pack?: string;
 }
 export declare const defaultAuthOptions: any;
 export declare const NB_AUTH_OPTIONS: InjectionToken<NbAuthOptions>;
